@@ -1,0 +1,75 @@
+{
+    "plots": [
+        {
+            "id": "74",
+            "images": [
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Arcapita-Pic-2.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Arcapita-Pic-16.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/DSC_1945.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Arcapita-Pic-32.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/DSC_0720.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Arcapita-Pic-31.jpg"
+            ],
+            "price": "140,000",
+            "bed": "4",
+            "bath": "4",
+            "dimension": "215 m²",
+            "reference": "41",
+            "description": "Mediterranean-Inspired Villa with Private Gym Access",
+            "address": "Diyar AlMuharraq, Muharraq"
+        },
+        {
+            "id": "75",
+            "images": [
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Belgrave-1.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Belgrave-E03-Q-0056-1.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Belgrave-2.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Belgrave-3.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Belgrave-5.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Belgrave-6.jpg"
+            ],
+            "price": "90,000",
+            "bed": "2",
+            "bath": "2",
+            "dimension": "115 m²",
+            "reference": "71",
+            "description": "Luxurious Beachfront Villa with Stunning Views",
+            "address": "Amwaj Islands, Muharraq"
+        },
+        {
+            "id": "76",
+            "images": [
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/OCS-VF-Adam-SW3821-1-1.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Vodafone-12.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/OCS-VF-Adam-SW4003-2.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/Vodafone-8.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2014/08/OCS-VF-Adam-SW4073-2.jpg"
+            ],
+            "price": "180,000",
+            "bed": "4",
+            "bath": "4",
+            "dimension": "250 m²",
+            "reference": "4",
+            "description": "Modern Apartment with Panoramic Cityscape",
+            "address": "Juffair, Manama"
+        },
+        {
+            "id": "77",
+            "images": [
+                "https://www.dpalighting.com/wp-content/uploads/2016/07/Cover-page-11-Charles-St.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2016/07/CharlesIIStreet183Ae.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2016/07/CharlesIIStreet191e.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2016/07/CharlesIIStreet272e.jpg",
+                "https://www.dpalighting.com/wp-content/uploads/2016/07/CharlesIIStreet271e.jpg",
+                ""
+            ],
+            "price": "240,000",
+            "bed": "8",
+            "bath": "8",
+            "dimension": "435 m²",
+            "reference": "96",
+            "description": "Spacious Family Home with a Private Garden",
+            "address": "Riffa, Southern Governorate"
+        }
+    ]
+}
