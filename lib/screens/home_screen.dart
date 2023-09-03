@@ -1,50 +1,37 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:real_estate_app/constants/constants.dart';
+import 'package:real_estate_app/data/plot_list.dart';
 
-class HomeScreen extends StatefulWidget {
-  HomeScreen({super.key});
+import '../widgets/overlay.dart';
+import '../widgets/plot_button.dart';
 
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  final Completer<GoogleMapController> _controller = Completer();
-
-  final Set<Marker> _markers = <Marker>{};
-
-  @override
-  void initState() {
-    super.initState();
-    _addMarkers();
-  }
-
-  void _addMarkers() {
-    for (var property in properties) {
-      final marker = Marker(
-        markerId: MarkerId(property["name"]),
-        position: LatLng(property["latitude"], property["longitude"]),
-        icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueRed),
-      );
-
-      setState(() {
-        _markers.add(marker);
-      });
-    }
-  }
-
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key, required this.plotList});
+  final PlotList plotList;
   @override
   Widget build(BuildContext context) {
-    return GoogleMap(
-      mapType: MapType.normal,
-      initialCameraPosition: initialLocation,
-      markers: _markers,
-      onMapCreated: (GoogleMapController controller) {
-        _controller.complete(controller);
-      },
+    return Stack(
+      children: [
+        Image.asset(
+          'assets/background.png',
+        ),
+        OverlayWidget(plotList: plotList),
+        Positioned(
+            top: 255,
+            left: 140,
+            child: PlotButton(id: '74', plotList: plotList)),
+        Positioned(
+            top: 215,
+            left: 140,
+            child: PlotButton(id: '75', plotList: plotList)),
+        Positioned(
+            top: 215,
+            left: 80,
+            child: PlotButton(id: '76', plotList: plotList)),
+        Positioned(
+            top: 255,
+            left: 80,
+            child: PlotButton(id: '77', plotList: plotList)),
+      ],
     );
   }
 }
