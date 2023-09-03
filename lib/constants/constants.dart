@@ -1,8 +1,8 @@
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 const CameraPosition initialLocation = CameraPosition(
-  target: LatLng(37.7749, -122.4194), // Default map location (San Francisco)
-  zoom: 10,
+  target: LatLng(26.279124, 50.648732), // Default map location (San Francisco)
+  zoom: 19,
 );
 
 final List<Map<String, dynamic>> properties = [
@@ -22,3 +22,10 @@ final List<Map<String, dynamic>> properties = [
     "longitude": -122.4301,
   },
 ];
+
+const double side = 40;
+const double iconSize = 25;
+const double iconSizeSmall = 16;
+
+const double buttonWidth = side;
+const double buttonHeigth = side;

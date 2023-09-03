@@ -5,6 +5,12 @@ class AppColors {
       createMaterialColor(const Color(0xFF2C2C35));
   static MaterialColor accentColor =
       createMaterialColor(const Color(0xFF1B1A21));
+  static MaterialColor buttonBackgroundColor =
+      createMaterialColor(const Color.fromARGB(200, 255, 255, 255));
+  static MaterialColor ReservedPlotColor =
+      createMaterialColor(const Color.fromARGB(255, 37, 175, 97));
+  static MaterialColor AvailablePlotColor =
+      createMaterialColor(const Color.fromARGB(255, 240, 131, 35));
   // Add more colors here
 }
 
