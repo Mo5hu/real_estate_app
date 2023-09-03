@@ -1,8 +1,10 @@
-// States
+import '../../data/plot_list.dart';
+
 abstract class NavigationState {}
 
 class HomeScreenState extends NavigationState {
-  HomeScreenState();
+  HomeScreenState({required this.plotList});
+  PlotList plotList;
 }
 
 class LoadingState extends NavigationState {}

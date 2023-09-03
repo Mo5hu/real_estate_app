@@ -19,17 +19,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Find Real Estate',
       theme: ThemeData(
           primarySwatch: AppColors.primaryColor,
           cardColor: AppColors.accentColor,
           textTheme: const TextTheme(
-              displayLarge: AppTextStyles.heading1,
-              displayMedium: AppTextStyles.heading2,
-              bodyLarge: AppTextStyles.bodyBold,
-              bodyMedium: AppTextStyles.bodyRegular,
-              bodySmall: AppTextStyles.bodySmall,
-              titleMedium: AppTextStyles.movieRow)),
+            displayLarge: AppTextStyles.heading1,
+            displayMedium: AppTextStyles.heading2,
+            bodyLarge: AppTextStyles.bodyBold,
+            bodyMedium: AppTextStyles.bodyRegular,
+            bodySmall: AppTextStyles.bodySmall,
+          )),
       initialRoute: '/',
       routes: {
         '/': (context) => BlocProvider.value(
