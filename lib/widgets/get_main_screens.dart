@@ -6,7 +6,7 @@ import 'loading_screen.dart';
 
 Widget getMainScreens(NavigationState state) {
   if (state is HomeScreenState) {
-    return HomeScreen();
+    return HomeScreen(plotList: state.plotList);
   } else if (state is LoadingState) {
     return const LoadingScreen();
   } else {
